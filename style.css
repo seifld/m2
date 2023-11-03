@@ -1,0 +1,119 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.orange{
+    height: 300px;
+    background-color: orange;
+    width: 25%;
+}
+.green{
+  height: 300px;
+  background-color: green;
+  width: 25%;
+    
+}
+.yellow{
+    height: 300px;
+  background-color: yellow;
+  width: 25%; 
+}
+.blue{
+    height: 300px;
+    background-color:blue;
+    width: 25%;  
+}
+.ul-1{
+    list-style-type: square;
+}
+.ul-2{
+    list-style-type: circle;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+}
+.block5{
+    height: 300px;
+    width: 100%;
+    background-color:blueviolet ;
+
+}
+.btn1{
+    background-color: coral;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.search{
+    padding: 10px;
+    border: none;
+}
+.submit{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
